@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CF58B5CB-714F-4606-ADB8-5CFEBFCBED94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermanVocabFetcher.ServicesTest", "test\GermanVocabFetcher.ServicesTest\GermanVocabFetcher.ServicesTest.csproj", "{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermanVocabFetcher.ControllersTest", "test\GermanVocabFetcher.ControllersTest\GermanVocabFetcher.ControllersTest.csproj", "{1E263CA3-D904-48F3-ACA9-C343291467C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermanVocabFetcher.IntegrationTest", "test\GermanVocabFetcher.IntegrationTest\GermanVocabFetcher.IntegrationTest.csproj", "{4EF621CD-12EF-4902-A30C-2EEEA0709A6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1C0D7E07-53E5-4111-B5F5-A0ECEA14F02C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GermanVocabFetcher.Core", "src\GermanVocabFetcher.Core\GermanVocabFetcher.Core.csproj", "{ACD8F6BC-599E-402F-A356-4C043126125F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E263CA3-D904-48F3-ACA9-C343291467C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E263CA3-D904-48F3-ACA9-C343291467C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E263CA3-D904-48F3-ACA9-C343291467C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E263CA3-D904-48F3-ACA9-C343291467C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EF621CD-12EF-4902-A30C-2EEEA0709A6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EF621CD-12EF-4902-A30C-2EEEA0709A6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EF621CD-12EF-4902-A30C-2EEEA0709A6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EF621CD-12EF-4902-A30C-2EEEA0709A6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD8F6BC-599E-402F-A356-4C043126125F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD8F6BC-599E-402F-A356-4C043126125F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD8F6BC-599E-402F-A356-4C043126125F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD8F6BC-599E-402F-A356-4C043126125F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{30EFCCFE-6B59-43FC-A468-DD2B6F2A27B3} = {CF58B5CB-714F-4606-ADB8-5CFEBFCBED94}
+		{1E263CA3-D904-48F3-ACA9-C343291467C3} = {CF58B5CB-714F-4606-ADB8-5CFEBFCBED94}
+		{4EF621CD-12EF-4902-A30C-2EEEA0709A6D} = {CF58B5CB-714F-4606-ADB8-5CFEBFCBED94}
+		{ACD8F6BC-599E-402F-A356-4C043126125F} = {1C0D7E07-53E5-4111-B5F5-A0ECEA14F02C}
+	EndGlobalSection
+EndGlobal
